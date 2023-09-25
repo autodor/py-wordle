@@ -1,2 +1,10 @@
-testoe
-blah blah
+Links to get cloud9 + git wired up:
+ - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+ - https://medium.com/sonabstudios/setting-up-github-on-aws-cloud9-with-ssh-2545c4f989ea
+ - adding the key correctly.    https://careerkarma.com/blog/git-fatal-could-not-read-from-remote-repository/#:~:text=The%20Git%20%E2%80%9Cfatal%3A%20Could%20not,repository%20using%20the%20correct%20URL.
+  - end result - create key and create .rsa pub key. 
+  - upload .pub rsa key to gitlab
+  - add priv key to ssh
+   - chmod 600 ~/.ssh/id_rsa.pub 
+   - ssh-add ~/.ssh/id_rsa
+ 
