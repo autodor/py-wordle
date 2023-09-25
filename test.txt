@@ -7,4 +7,5 @@ Links to get cloud9 + git wired up:
   - add priv key to ssh
    - chmod 600 ~/.ssh/id_rsa.pub 
    - ssh-add ~/.ssh/id_rsa
- 
+ Links to run different python as primary
+  - https://stackoverflow.com/questions/76631257/how-to-install-python3-11-and-update-pylint-on-amazon-cloud9-ide
